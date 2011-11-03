@@ -1,5 +1,11 @@
+# revision 22335
+# category Package
+# catalog-ctan undef
+# catalog-date undef
+# catalog-license undef
+# catalog-version undef
 Name:		texlive-latex4wp-it
-Version:	20111102
+Version:	20111103
 Release:	1
 Summary:	TeXLive latex4wp-it package
 Group:		Publishing
@@ -37,6 +43,7 @@ TeXLive latex4wp-it package.
 %doc %{_texmfdistdir}/doc/latex/latex4wp-it/tbx.tex
 %doc %{_texmfdistdir}/doc/latex/latex4wp-it/xfig.eps
 %doc %{_texmfdistdir}/doc/latex/latex4wp-it/xfig.png
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -47,3 +54,5 @@ TeXLive latex4wp-it package.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
