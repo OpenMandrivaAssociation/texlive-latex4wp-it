@@ -51,3 +51,17 @@ TeXLive latex4wp-it package.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 20111103-2
++ Revision: 753132
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 20111103-1
++ Revision: 718811
+- texlive-latex4wp-it
+- texlive-latex4wp-it
+- texlive-latex4wp-it
+- texlive-latex4wp-it
+
