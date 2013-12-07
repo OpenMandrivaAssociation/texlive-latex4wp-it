@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-latex4wp-it
 Version:	20111103
-Release:	3
+Release:	4
 Summary:	TeXLive latex4wp-it package
 Group:		Publishing
 URL:		http://tug.org/texlive
