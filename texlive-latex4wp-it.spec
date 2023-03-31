@@ -1,6 +1,6 @@
 Name:		texlive-latex4wp-it
 Version:	36000
-Release:	1
+Release:	2
 Summary:	TeXLive latex4wp-it package
 Group:		Publishing
 URL:		http://tug.org/texlive
